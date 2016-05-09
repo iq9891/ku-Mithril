@@ -1,0 +1,19 @@
+{
+  "name": "ku-mithril",
+  "version": "1.0.0",
+  "description": "前端新兴框架Mithril.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iq9891/ku-mithril.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iq9891/ku-mithril/issues"
+  },
+  "homepage": "https://github.com/iq9891/ku-mithril#readme"
+}

@@ -1,0 +1,9 @@
+node_modules/
+bower_components/
+.tmp
+.sass-cache
+.idea
+*.log
+*.bak
+.Ds_store
+npm-debug.log
