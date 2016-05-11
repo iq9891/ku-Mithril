@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>render</title>
+    <script src="../client/bower_components/mithril/mithril.min.js"></script>
+    <style>
+      .red {
+        background-color: red;
+        height:50px;
+      }
+      .green {
+        background-color: green;
+        height:50px;
+      }
+      .c-yellow {
+        color:yellow;
+      }
+    </style>
+  </head>
+  <body>
+  </body>
+  <script>
+    m.render(document.body, m("div.red",'render div.red'));
+  </script>
+</html>

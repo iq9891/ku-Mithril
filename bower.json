@@ -14,5 +14,8 @@
     "client/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "mithril": "^0.2.4"
+  }
 }
