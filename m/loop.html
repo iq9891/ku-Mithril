@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>loop</title>
+    <script src="../client/bower_components/mithril/mithril.min.js"></script>
+  </head>
+  <body>
+    <script>
+    var links = [
+        {title: "item 3", url: "/item3"}
+      ];
+
+      for (var i = 0; i < 5000; i++) {
+        links[i] = {
+          title: 'item ' + i,
+          url: '/item' + i
+        };
+      }
+
+      m.render(document.body, [
+        m("ul.nav",
+          links.map(function(link) {
+            return m("li",
+                m("a", {href: link.url}, link.title)
+            );
+          })
+        )
+      ]);
+    </script>
+  </body>
+</html>
